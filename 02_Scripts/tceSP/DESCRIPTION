@@ -1,0 +1,25 @@
+Package: tceSP
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "Eduardo",
+           family = "Rosseti",
+           role = c("aut", "cre"),
+           email = "eduardo.rossti@fgv.br",
+           comment = c(ORCID = ""))
+Description: Pacote para download de arquivos de despesa detalhada municipal do TCE-SP 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/duduesr/tceSP
+BugReports: https://github.com/duduesr/tceSP/issues
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    jsonlite,
+    RCurl
